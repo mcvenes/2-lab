@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 40px;
+}
+
+#passwords {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#inputs {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+button {
+    margin: 20px 0;
+    padding: 5px 15px;
+    cursor: pointer;
+}
